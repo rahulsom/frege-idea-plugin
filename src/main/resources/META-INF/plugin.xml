@@ -9,16 +9,19 @@
     ]]></description>
 
   <change-notes><![CDATA[
-      0.1.4 - Support for more versions of IDEA <br/>
-      0.1.3 - Frege Compiler is now picked from classpath <br/>
-      0.1.2 - Run is now much faster because Compiler is reused. <br/>
-      0.1.1 - Support for Run <br/>
-      0.1.0 - Initial version <br/>
+      <ul>
+        <li>0.1.5 - Support IDEA 2016.2
+        <li>0.1.4 - Support for more versions of IDEA
+        <li>0.1.3 - Frege Compiler is now picked from classpath
+        <li>0.1.2 - Run is now much faster because Compiler is reused.
+        <li>0.1.1 - Support for Run
+        <li>0.1.0 - Initial version
+      </ul>
     ]]>
   </change-notes>
 
   <!-- please see http://confluence.jetbrains.com/display/IDEADEV/Build+Number+Ranges for description -->
-  <idea-version since-build="131" until-build="145"/>
+  <idea-version since-build="131" />
 
   <!-- please see http://confluence.jetbrains.com/display/IDEADEV/Plugin+Compatibility+with+IntelliJ+Platform+Products
        on how to target different products -->
