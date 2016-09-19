@@ -1,7 +1,7 @@
 plugins {
-    id "org.jetbrains.intellij" version "0.0.27"
+    id "org.jetbrains.intellij" version "0.1.10"
     id "de.undercouch.download" version "2.0.0"
-    id 'nebula.provided-base' version '3.0.3' // if you want provided-base
+    id 'nebula.provided-base' version '3.0.3'
 }
 
 repositories {
@@ -19,7 +19,7 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 intellij {
-    version '15.0.1'
+    version '2016.2'
     pluginName 'Frege'
 
     publish {
